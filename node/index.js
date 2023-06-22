@@ -23,7 +23,7 @@ async function performDatabaseOperations() {
 }
 
 async function insertData(connection) {
-    const sql_insert = `INSERT INTO people(name) VALUES('Bruno')`;
+    const sql_insert = `INSERT INTO people(name) VALUES('Bruno Henrique')`;
     await connection.query(sql_insert);
 }
 
